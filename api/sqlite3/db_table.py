@@ -8,7 +8,7 @@ wrong_answesrs TEXT NOT NULL
 );
 """
 
-connect = sqlite3.connect("music.db")
+connect = sqlite3.connect("DATABASE.db")
 cursor = connect.cursor()
 
 cursor.execute(create_table)
